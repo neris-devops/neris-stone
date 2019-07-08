@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[1] Repository", "[1] Repository", "{DBCDA720-9FB4-4F66-9A50-CE8D711A5CA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[2] Presentation", "[2] Presentation", "{55F0A23D-F08A-4F06-A47A-4C7EDFA10C75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[3] Services", "[3] Services", "{2D80C872-F63B-4461-BE22-F6D55AC8046B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[4] Entities", "[4] Entities", "{F52FB574-884E-49F9-B7F7-D8A0014768F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[5] Test", "[5] Test", "{DFFD61FB-0D42-4997-ACBF-6930E797D96F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[6] Others", "[6] Others", "{BB26DFCD-DE75-4EF4-8517-DDD2FC049C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Integration.Repository", "Stone.Integration.Repository\Stone.Integration.Repository.csproj", "{57C06EEC-D903-424B-A90F-477E168FE846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Integration.Business", "Stone.Integration.Business\Stone.Integration.Business.csproj", "{26689A55-0B85-4088-A345-40871F4EDBA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Integration.BusinessEntities", "Stone.Integration.BusinessEntities\Stone.Integration.BusinessEntities.csproj", "{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoneWebApi", "StoneWebApi\StoneWebApi.csproj", "{0FFB9AEE-568D-4407-9CFB-F25C50971868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Integration.Others", "Stone.Integration.Others\Stone.Integration.Others.csproj", "{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoneTestAplication", "StoneTestAplication\StoneTestAplication.csproj", "{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNerisPizzaria", "Presentation\ChuckNerisPizzaria\ChuckNerisPizzaria.csproj", "{F2571E19-BB3A-46FA-B1A1-15ECD9392887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57C06EEC-D903-424B-A90F-477E168FE846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C06EEC-D903-424B-A90F-477E168FE846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C06EEC-D903-424B-A90F-477E168FE846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C06EEC-D903-424B-A90F-477E168FE846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26689A55-0B85-4088-A345-40871F4EDBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26689A55-0B85-4088-A345-40871F4EDBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26689A55-0B85-4088-A345-40871F4EDBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26689A55-0B85-4088-A345-40871F4EDBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFB9AEE-568D-4407-9CFB-F25C50971868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFB9AEE-568D-4407-9CFB-F25C50971868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFB9AEE-568D-4407-9CFB-F25C50971868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFB9AEE-568D-4407-9CFB-F25C50971868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2571E19-BB3A-46FA-B1A1-15ECD9392887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2571E19-BB3A-46FA-B1A1-15ECD9392887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2571E19-BB3A-46FA-B1A1-15ECD9392887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2571E19-BB3A-46FA-B1A1-15ECD9392887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57C06EEC-D903-424B-A90F-477E168FE846} = {DBCDA720-9FB4-4F66-9A50-CE8D711A5CA4}
+		{26689A55-0B85-4088-A345-40871F4EDBA7} = {F52FB574-884E-49F9-B7F7-D8A0014768F4}
+		{E81B9E36-A6FC-4F93-BD77-3CD684B41C4C} = {F52FB574-884E-49F9-B7F7-D8A0014768F4}
+		{0FFB9AEE-568D-4407-9CFB-F25C50971868} = {2D80C872-F63B-4461-BE22-F6D55AC8046B}
+		{6CAD9950-8517-4B07-A9B8-CC419DCBC3EA} = {BB26DFCD-DE75-4EF4-8517-DDD2FC049C62}
+		{BC2A6E71-861F-4CD6-8E2E-30DEFEE6BA83} = {DFFD61FB-0D42-4997-ACBF-6930E797D96F}
+		{F2571E19-BB3A-46FA-B1A1-15ECD9392887} = {55F0A23D-F08A-4F06-A47A-4C7EDFA10C75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49E9479C-817F-41C9-A73C-4C4E2D72DAB4}
+	EndGlobalSection
+EndGlobal
